@@ -5,14 +5,42 @@
   width: 100vw;
 }
 
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110vw;
+  height: 80px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #1F343E;
+  opacity: 1;
+}
+
 .header{
   display: flex;
   width: 1120px;
-  height: 80px;
-  background-color: lime;
-  align-items: center;
+  justify-content: space-between;
   .logoCoin{
     height: 32px;
+  }
+  .headerLinks{
+    color: #434A54;
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    text-transform: capitalize;
+    a{
+      padding: 10px 16px;
+      margin-left: 10px;
+    }
+    a:first-child{
+      color: #4EB3E3;
+    }
+    a:link{
+      text-decoration: none;
+    }
+    a:hover{
+      color: #4EB3E3;      
+    }
   }
 }
 
