@@ -164,7 +164,44 @@ body{
 
 .rightColumn{
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 70%;
   width: 40%;
-  background-color: #4ee3aa;
+  // background-color: #4ee3aa;
+  .step1,
+  .step2,
+  .step3{
+    display: flex;
+    justify-content: space-between;
+    .stepCount{
+      width: 256px;
+    }
+    h2{
+      text-align: left;
+      margin: 0;
+      font: normal normal bold 20px/32px Noto Sans;
+      letter-spacing: 1.6px;
+      color: #4EB3E3;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    h1{
+      text-align: left;
+      margin: 0;
+      font: normal normal normal 32px/48px Caveat Brush;
+      letter-spacing: 0px;
+      color: #1F343E;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+    h3{
+      text-align: left;
+      margin: 0;
+      font: normal normal normal 20px/32px Noto Sans;
+      letter-spacing: 0px;
+      color: #1F343E;
+      opacity: 1;
+    }
+  }
 }
