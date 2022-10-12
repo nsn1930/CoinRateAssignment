@@ -1,6 +1,7 @@
 import './App.scss';
 import Header from './components/Header';
 import MainContainer from './components/MainContainer';
+import StoreFooter from './components/StoreFooter';
 // import JSONbin from '../node_modules/jsonbin-io.js/src/jsonbin-io';
 
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <MainContainer></MainContainer>
+      <StoreFooter></StoreFooter>
     </div>
   );
 }
