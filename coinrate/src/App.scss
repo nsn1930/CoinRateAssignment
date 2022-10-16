@@ -232,6 +232,7 @@ body{
       border: 1px solid #1F343E;
       border-radius: 16px;
       opacity: 1;
+      margin-right: 16px;
       img{
         width: 48px;
         margin-left: 24px;
@@ -254,6 +255,26 @@ body{
           opacity: 1;
           margin: 0;
         }
+      }
+    }
+    .starRating{
+      display: flex;
+      flex-direction: row;
+      height: 80px;
+      align-items: center;
+      opacity: 1;
+      img{
+        height: 20px;
+        padding-right: 4px;
+        filter: invert(1);
+      }
+      h2{
+        text-align: left;
+        font: normal normal normal 20px/24px Noto Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        margin-left: 16px;
+        opacity: 1;
       }
     }
   }

@@ -1,5 +1,6 @@
 import chrome from '../assets/chrome.svg'
 import apple from '../assets/apple.svg'
+import star from '../assets/star.svg'
 
 function StoreFooter() {
     return (
@@ -19,6 +20,14 @@ function StoreFooter() {
                         <h2>apple app store</h2>
                     </div>
                 </a>
+                <div className="starRating">
+                    <img src={star} alt="star" />
+                    <img src={star} alt="star" />
+                    <img src={star} alt="star" />
+                    <img src={star} alt="star" />
+                    <img src={star} alt="star" />
+                    <h2>Chrome Store reviews</h2>
+                </div>
             </div>
         </div>
     )
