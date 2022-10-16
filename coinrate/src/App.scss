@@ -331,5 +331,90 @@ body{
       background: #f6ddfc;
       opacity: 1;
     }
+    .rightFooterContent{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      h1{
+        margin: 0;
+        text-align: left;
+        font: normal normal bold 20px/24px Noto Sans;
+        letter-spacing: 1.6px;
+        color: #1F343E;
+        text-transform: uppercase;
+        opacity: 1;
+      }
+      .quickLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .linksFooter{
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          text-transform: capitalize;
+          font: normal normal normal 16px/24px Noto Sans;
+          letter-spacing: 0px;
+          opacity: 1;
+          a{
+            margin-top: 16px;
+          }         
+          a:first-child {
+            color: #4EB3E3;
+          }
+          
+          a:link {
+            text-decoration: none;
+          }
+          
+          a:hover {
+            color: #4EB3E3;
+          }
+        }
+      }
+      .contactSocial{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .contactMail{
+          display: flex;
+          margin-top: 16px;
+          img{
+            width: 16px;
+          }
+          a{
+            text-align: left;
+            font: normal normal normal 16px/24px Noto Sans;
+            letter-spacing: 0px;
+            margin-left: 16px;
+            color: #1F343E;
+            opacity: 1;
+          }
+          a:link {
+            text-decoration: none;
+          }
+          a:hover {
+            color: #4EB3E3;
+          }  
+        }
+      }
+      .social{
+        display: flex;
+        flex-direction: column;
+        .socialLinks{
+          margin-top: 16px;
+          .socIcons{
+            height: 16px;
+            padding: 8px;
+            border-radius: 8%;
+            background: #4EB3E3 0% 0% no-repeat padding-box;
+            border: 1px solid #1F343E;
+          }
+          img:first-child{
+            margin-left: 0;
+          }
+        }
+      }
+    }
   }
 }
