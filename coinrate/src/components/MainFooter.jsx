@@ -8,6 +8,7 @@ function MainFooter() {
                 <LeftFooter></LeftFooter>
                 <RightFooter></RightFooter>
             </div>
+            <h3 className="watermark">© 2021 Ratepunk. All Rights Reserved.</h3>
         </div>
     );
 }
