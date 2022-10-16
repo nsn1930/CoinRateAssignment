@@ -1,4 +1,5 @@
 import './App.scss';
+import './layout.scss';
 import Header from './components/Header';
 import MainContainer from './components/MainContainer';
 import MainFooter from './components/MainFooter';

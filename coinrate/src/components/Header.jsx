@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg';
+import hamburger from '../assets/menu.svg';
 
 function Header() {
     return (
@@ -10,6 +11,7 @@ function Header() {
                     <a href=".">Price compartion</a>
                     <a href=".">Blog</a>
                 </div>
+                <img className='hamburger' src={hamburger} alt="hamburger" />
             </div>
         </div>
     );

@@ -14,12 +14,12 @@ function RightColumn() {
                 </div>
             </div>
             <div className='step2'>
+                <img src={collectCoin} alt="collectCoin" />
                 <div className='stepCount'>
                     <h2>Step 2</h2>
                     <h1>Collect coins</h1>
                     <h3>Get 1 coin for each friend that installs our extension using your referral link.</h3>
                 </div>
-                <img src={collectCoin} alt="collectCoin" />
             </div>
             <div className='step3'>
                 <img src={voucher} alt="voucher" />

@@ -1,0 +1,75 @@
+@media(max-width:1120px){
+    .mainContainer{
+        height: 100%;
+    }
+    
+    .mainColumns{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+
+    .leftColumn,
+    .rightColumn,
+    .footerColumns{
+        width: 720px;
+    }
+    .rightColumn >.step2{
+        flex-direction: column;
+    }
+    .rightColumn >.step3{
+        margin-bottom: 48px;
+    }
+    .rightColumn>.step1,
+    .step2,
+    .step3{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+        .stepCount{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 33px;
+            width: 80%;
+            h3{
+                text-align: center;
+            }
+        }
+    }
+    .appsContainer{
+        display: flex;
+        height: 286px;
+    }
+    .appsContainer >.appsStores{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .appsStores>.appsButton{
+        margin-top: 28px;        
+    }
+    .mainFooter{
+        height: 867px;
+    }
+    .footerColumns{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:780px){
+    .headerLinks{
+        display: none;
+    }
+    
+    .header >.hamburger{
+        display: flex;
+    }
+
+    .leftColumn,
+    .rightColumn{
+        width: 550px;
+    }
+}
